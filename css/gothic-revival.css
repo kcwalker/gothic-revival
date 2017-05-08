@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
+/*I picked Pinyon Script because it embodies the elegance and tradition of Gothic Revival. */ 
+body{
+    background-color: rgb(200, 12, 232);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100px 100px; 
+}
+.jumbotron{
+    background-color: rgb(200, 12, 232);
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+p{
+    text-align: center;
+}
+div{
+    position: relative;
+}
+
+img {
+    position: relative;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+    padding: 20px;
+}
+.item{
+    position: relative;
+    height: 300px;
+
+}
+body{
+    background-color: rgb(200, 12, 232);
+    
+}
+h2{
+    text-align: center;
+    text-shadow: 4px 4px 4px 4px;
+}
+p{
+    text-align: center;
+    text-shadow: 4px 4px 4px 4px;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    background-color: #3397FF;
+}
+
+li {
+    float: left;
+}
+.nxt ul li a{
+    text-decoration: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ /*Change the link color to #111 (black) on hover */
+li a:link, a:active, a:hover {
+    background-color: #111;
+}
